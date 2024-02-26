@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EVA1_6_ASIGNATURA.jnlp">
+  <information>
+    <title>EVA1_6_ASIGNATURA</title>
+    <vendor>invitado</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EVA1_6_ASIGNATURA.jar" size="2957" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EVA1_6_ASIGNATURA" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="eva1_6_asignatura.EVA1_6_ASIGNATURA"  name="EVA1_6_ASIGNATURA" />
+  <update check="always"/>
+</jnlp>
